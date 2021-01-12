@@ -15,8 +15,8 @@
             <div id="form_message" class="text-danger text-center"></div>
             <form id="login_form">
                 <div class="form-group">
-                    <label for="login_id">Login ID</label>
-                    <input name="login_id" type="text" class="form-control" id="login_id" placeholder="Login ID">
+                    <label for="email">Email</label>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Email">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
@@ -47,7 +47,7 @@
                 success: function (result) {
                     console.log(result);
                     if (result === 'Authorized User') {
-                        location = '{{ url('dashboard/1') }}';
+                        location = '{{ url('dashboard') }}';
                     } else {
                         $('#form_message').text(result);
                     }

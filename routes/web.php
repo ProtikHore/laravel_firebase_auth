@@ -27,4 +27,11 @@ Route::get('/', function () {
 });
 
 Route::get('login', [LoginController::class, 'loadLogin']);
-Route::get('otp/login', [LoginController::class, 'otpLogin']);
+Route::post('login', [LoginController::class, 'login']);
+
+Route::get('otp/login', [LoginController::class, 'loadOtpLogin']);
+Route::post('otp/login', [LoginController::class, 'otpLogin']);
+Route::get('otp/mobile/number/check', [LoginController::class, 'checkNumber']);
+
+Route::get('dashboard', [LoginController::class, 'dashboard']);
+Route::get('logout', [LoginController::class, 'logout']);

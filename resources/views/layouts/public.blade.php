@@ -16,7 +16,7 @@
     <link href="{{ asset('css/select2.min.css') }}" type="text/css" rel="stylesheet">
     <script src="{{ asset('js/select2.min.js') }}" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.0.1/firebase.js"></script>
-    <script src="{{ asset('js/firebase.js') }}"></script>
+{{--    <script src="{{ asset('js/firebase.js') }}"></script>--}}
 
     <style type="text/css">
 

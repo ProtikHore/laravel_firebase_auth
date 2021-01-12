@@ -36,7 +36,7 @@ function onSignInSubmit() {
         $(this).text('Processing..');
         confirmationResult.confirm(code).then(function (result) {
             alert('Succecss');
-            var user = result.user;
+            var user = result;
             console.log(user);
             console.log('hello3');
 
