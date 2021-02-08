@@ -62,7 +62,7 @@ class LoginController extends Controller
         //return response()->json($request->get('phone_no'));
         $number = User::where('mobile_number', $request->get('phone_no'))->first();
         if ($number) {
-            return response()->json(true);
+            return response()->json('Number Found');
         } else {
             return response()->json('Number not found');
         }

@@ -240,38 +240,10 @@
             <div class="col-12 col-sm-12 col-md-11 col-lg-10 col-xl-9 mx-auto text-center">
                 <div class="row">
                     <div class="col-6 text-right pt-2">
-                        <div class="row">
-                            <div class="col text-white header_title_1">2<sup>ND</sup> BES-MAYO ADVANCED</div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-white header_title_1">COURSE IN ENDOCRINOLOGY 2021</div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-white header_title_2">17-20 February, 2021</div>
-                        </div>
-{{--                        <div class="row">--}}
-{{--                            <div class="col text-white header_title_2">Dhaka, Bangladesh</div>--}}
-{{--                        </div>--}}
+                        
                     </div>
                     <div class="col-3 pt-4">
-                        <div class="row">
-                            <div class="col text-right text-white header_title_3">Organized By</div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-right" style="padding-right: 27px;">
-                                <img src="{{ asset('storage/img/logo.png') }}" width="50" height="50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 pt-4">
-                        <div class="row">
-                            <div class="col text-right text-white header_title_3">In Association With</div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-right" style="padding-right: 35px;">
-                                <img src="{{ asset('storage/img/mayo_clinic.png') }}" width="50" height="50">
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -283,12 +255,12 @@
     <div class="container-fluid fixed-bottom" style="font-size: 0.7rem;">
         <div class="row">
             <div class="col text-center" style="padding-top: 15px; color: white; background-color: #222d3f;">
-                Copyright &copy; {{ date('Y') }} Bangladesh Endocrine Society. All Rights Reserved.
+                Copyright &copy; {{ date('Y') }} Protik.
             </div>
         </div>
         <div class="row">
             <div class="col text-center" style="padding-bottom: 15px; color: white; background-color: #222d3f;">
-                Designed & Developed by <a href="https://proximasoft.net" target="_blank">Proxima Soft</a>
+                Designed & Developed by <a href="https://protikit.com" target="_blank">Protik IT</a>
             </div>
         </div>
     </div>

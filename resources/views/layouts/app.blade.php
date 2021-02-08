@@ -165,12 +165,12 @@
 <div class="container-fluid fixed-bottom" style="font-size: 0.8rem;">
     <div class="row">
         <div class="col text-center" style="padding-top: 15px; color: white; background-color: #222d3f;">
-            Copyright &copy; {{ date('Y') }} Bangladesh Endocrine Society. All Rights Reserved.
+            Copyright &copy; {{ date('Y') }} Protik.
         </div>
     </div>
     <div class="row">
         <div class="col text-center" style="padding-bottom: 15px; color: white; background-color: #222d3f;">
-            Designed & Developed by <a href="https://proximasoft.net" target="_blank">Proxima Soft</a>
+            Designed & Developed by <a href="https://protikit.com" target="_blank">Protik IT</a>
         </div>
     </div>
 </div>

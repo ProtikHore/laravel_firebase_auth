@@ -52,7 +52,7 @@
                 },
                 success: function (result) {
                     console.log(result);
-                    if (result) {
+                    if (result === 'Number Found') {
                         // -------------------------------------
                         const firebaseConfig = {
                             apiKey: "AIzaSyDfbsKKiXml3qE-hmcJR_fzncyBCGzl8mc",
@@ -93,6 +93,8 @@
                                     let formData = new FormData();
                                     formData.append('mobile_number', result.user.phoneNumber);
                                     formData.append('_token', '{{ csrf_token() }}');
+                                    console.log(formData);
+                                    console.log('check');
                                     $.ajax({
                                         method: 'post',
                                         url: '{{ url('opt/login') }}',
@@ -160,6 +162,8 @@
                         }
 
                         //--------------------------------------
+                    } else {
+                        alert(result);
                     }
                 },
                 error: function (xhr) {
