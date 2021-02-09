@@ -40,7 +40,7 @@ class LoginController extends Controller
         return view('otp_login');
     }
 
-    public function optLogin(Request $request)
+    public function otpLogin(Request $request)
     {
         $loginData = $request->except('_token');
         $user = User::where($loginData)->first();

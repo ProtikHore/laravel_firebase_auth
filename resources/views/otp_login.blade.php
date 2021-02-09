@@ -97,7 +97,7 @@
                                     console.log('check');
                                     $.ajax({
                                         method: 'post',
-                                        url: '{{ url('opt/login') }}',
+                                        url: '{{ url('otp/login') }}',
                                         data: formData,
                                         contentType: false,
                                         processData: false,
